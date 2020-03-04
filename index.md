@@ -66,7 +66,7 @@ img[alt="centrar"] {
 &nbsp;
 
 * **0.1 Estandarització**. Cal vetllar perquè els dissenys d'alt nivell de les arquitectures de l'entorn de treball esdevinguin un model estàndar que permeti implemantar-lo a qualsevol escenari amb el mínim de canvis necessaris. 
-  * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): Catàleg dels dissenys estàndards amb diferent abast: àmbit o transversal.
+  * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): catàleg dels estàndards establerts l'entorn de treball amb diferent abast: àmbit o transversal.
 
 &nbsp;
 &nbsp;
@@ -84,17 +84,19 @@ img[alt="centrar"] {
 
 ## 1.1 Disseny aplicacions escriptori
 
-* **1.1.1 Usabilitat**. Tota aplicació implementada al lloc de treball ha d'estar orientada a l'usuari, tanmateix la facilitat d'ús de la solució juntament amb un bon rendiment de la mateixa donaran com a resultat una experiència d'usuari satisfactoria. Amb aquesta motivació caldrà realitzar les proves de qualitat i rendiment pertinents.
+* **1.1.1 Usabilitat** *(obligatori). Tota aplicació implementada al lloc de treball ha d'estar orientada a l'usuari, tanmateix la facilitat d'ús de la solució juntament amb un bon rendiment de la mateixa donaran com a resultat una experiència d'usuari satisfactoria. Amb aquesta motivació caldrà realitzar les proves de qualitat i rendiment pertinents.
 
-* **1.1.2 Desacoblada i multi-plataforma**. Les aplicacions Web són la tipologia d'aplicacions prioritaria per lliurar al lloc de treball pels múltiples beneficis que ofereixen: agnòstiques al SO, maximitzen la mobilitat de l'usuari, faciliten l'administració, etc. Si per motius funcionals, tecnològics o econòmics, es requreix implementar una aplicació escriptori al lloc de treball caldrà avaluar les tecnologies, APIs i Frameworks que millor encaixen per assolir aquests principis.
+* **1.1.2 Desacoblada i multi-plataforma** *(desitjable)*. Les aplicacions Web són la tipologia d'aplicacions prioritaria per lliurar al lloc de treball pels múltiples beneficis que ofereixen: agnòstiques al SO, maximitzen la mobilitat de l'usuari, faciliten l'administració, etc. Si per motius funcionals, tecnològics o econòmics, es requreix implementar una aplicació escriptori al lloc de treball caldrà avaluar les tecnologies, APIs i Frameworks que millor encaixen per assolir aquests principis.
 
-* **1.1.3 Interoperatbiltat**. El context d'execució de les aplicacions està format pel Sistema Operatiu, les plataformes integrades (impressió, eines de gestió i administració, recursos locals i en xarxa, etc), altres aplicacions i el periferics. La interoperatibilitat amb aquests elements és una facultat necessaria en les solucions del lloc de treball. Als següents enllaços es troba informació que permet conèixer aquest context d'execució al lloc de treball:
+* **1.1.3 Interoperatbiltat** *(obligatori)*. El context d'execució de les aplicacions està format pel Sistema Operatiu, les plataformes integrades (impressió, eines de gestió i administració, recursos locals i en xarxa, etc), altres aplicacions i el periferics. La interoperatibilitat amb aquests elements és una facultat necessaria en les solucions del lloc de treball. Als següents enllaços es troba informació que permet conèixer aquest context d'execució al lloc de treball:
 
     * [Full de ruta de programari.](https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/)
     * [Disseny de la maqueta W10.]()
     * [Catàleg de dispositius.]()
 
-* **1.1.4 Centralització**. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora es minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
+* *(desitjable)* **1.1.4 Centralització** Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
+
+* **1.1.5 Traçabilitat** *(desitjable)*. 
 
 ## 1.2 Tecnologia
 
@@ -111,22 +113,22 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 
 Principis:
 
-* **1.2.1.1 Filosofia de “micro-serveis” o “components desacoblats”** amb l’objectiu de maximitzar la reutilització dels mateixos alhora que es minimitzen els esforços i l’impacte al servei per mantenir el cicle de vida de les aplicacions. Entenem que es segueix aquesta filosofia quan s'assoleixen les següents premisses:
+* *(desitjable)* **1.2.1.1 Filosofia de “micro-serveis” o “components desacoblats”**, amb l’objectiu de maximitzar la reutilització dels mateixos alhora que es minimitzen els esforços i l’impacte al servei per mantenir el cicle de vida de les aplicacions. Entenem que es segueix aquesta filosofia quan s'assoleixen les següents premisses:
   * a)	Ús de dependències: es generarà un paquet independent per aquells components susceptibles de ser reutilitzats o que poden ser modificats i actualitzats sense afectar a la resta de components (p.e.: frameworks, runtimes, visors o editors de documents, plugins, etc).
 
   * b) 	Els paquets principals no han d’incloure paràmetres de configuracions específics de l'aplicació o del sistema (p.e.: strings de connexió, nom de BBDD, etc). Aquestes personalitzacions s'inclouran en un paquet diferent o s'implementaran mitjançant una eina de gestió de l'entorn d'usuari (UEM).
 
 * **1.2.1.2 Simplicitat** del paquet i del perfil d'usuari. Els fitxers i claus de registre a mantenir seran els mínims necessaris perquè l'aplicació sigui completament funcional.
 
-* **1.2.1.3 Auto-contingut i auto-configurat.** És necessari garantir que la combinació del paquet principal + paquets dependents incorporen el total de fitxers i claus de registre necessàries per treballar amb l'aplicació1. Tanmateix, cal evitar la necessitat de configuracions manuals mitjançant una parametrització pre-establerta. 
+* **1.2.1.3 Auto-contingut i auto-configurat** *(desitjable)*. És necessari garantir que la combinació del paquet principal + paquets dependents incorporen el total de fitxers i claus de registre necessàries per treballar amb l'aplicació1. Tanmateix, cal evitar la necessitat de configuracions manuals mitjançant una parametrització pre-establerta. 
 
 * **1.2.1.4 L’entorn d’execució (bombolla) ha de ser segur,** aplicant les mesures restrictives necessàries per permetre només la interoperabilitat amb el sistema i aquells serveis completament imprescindibles pel bon funcionament de l’aplicació.
 
 * **1.2.1.5 Cal vetllar per la compatibilitat del paquet,** avaluant el correcte funcionament del mateix en les diverses versions de Windows suportades pel lloc de treball de la Generalitat de Catalunya, en aquelles arquitectures compatibles amb l'aplicació (32bit \ 64bit). Al [full de ruta de programari](https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/), s’informa quines són aquestes versions i compilacions de SO.
 
-* **1.2.1.6 L’experiència d’usuari persistent**, sense importar des de quin terminal -gestionat- s’executi, per tant, l’aplicació ha d’estar preparada per l’ús de perfils roaming i serà al perfil de l’usuari on es redirigiran tots els fitxers de treball i aquells fitxers destinats a personalitzar la configuració de l’aplicació. 
+* **1.2.1.6 L’experiència d’usuari persistent** *(desitjable)*, sense importar des de quin terminal -gestionat- s’executi, per tant, l’aplicació ha d’estar preparada per l’ús de perfils roaming i serà al perfil de l’usuari on es redirigiran tots els fitxers de treball i aquells fitxers destinats a personalitzar la configuració de l’aplicació. 
 
-* **1.2.1.7	El paquet ha d'estar preparat** per una completa desinstal·lació i una actualització automatitzada pels mecanismes establerts.
+* **1.2.1.7	Automització**. El paquet ha d'estar preparat per una completa desinstal·lació i una actualització automatitzada pels mecanismes establerts.
 
 * **1.2.1.8	Cicle de vida inalterable**. La virtualització de l'aplicació no ha d'interferir en el cicle de vida de la mateixa, el qual haurà d'anar alineat amb la versió del SO i demés programari present en els terminals client on es pretén executar.
 
