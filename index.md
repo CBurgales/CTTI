@@ -66,7 +66,7 @@ img[alt="centrar"] {
 &nbsp;
 
 * **0.1 Estandarització**. Cal vetllar perquè els dissenys d'alt nivell de les arquitectures de l'entorn de treball esdevinguin un model estàndar que permeti implemantar-lo a qualsevol escenari amb el mínim de canvis necessaris. 
-  * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): catàleg dels estàndards establerts l'entorn de treball amb diferent abast: àmbit o transversal.
+  * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): catàleg dels estàndards establerts a l'entorn de treball amb diferent abast: àmbit o transversal.
 
 &nbsp;
 &nbsp;
@@ -94,7 +94,7 @@ img[alt="centrar"] {
     * [Disseny de la maqueta W10.]()
     * [Catàleg de dispositius.]()
 
-* *(desitjable)* **1.1.4 Centralització** Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
+* **1.1.4 Centralització** *(desitjable)*. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
 
 * **1.1.5 Traçabilitat** *(desitjable)*. 
 
@@ -113,12 +113,12 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 
 Principis:
 
-* *(desitjable)* **1.2.1.1 Filosofia de “micro-serveis” o “components desacoblats”**, amb l’objectiu de maximitzar la reutilització dels mateixos alhora que es minimitzen els esforços i l’impacte al servei per mantenir el cicle de vida de les aplicacions. Entenem que es segueix aquesta filosofia quan s'assoleixen les següents premisses:
+* **1.2.1.1 Filosofia de “micro-serveis” o “components desacoblats”** *(desitjable)*, amb l’objectiu de maximitzar la reutilització dels mateixos alhora que es minimitzen els esforços i l’impacte al servei per mantenir el cicle de vida de les aplicacions. Entenem que es segueix aquesta filosofia quan s'assoleixen les següents premisses:
   * a)	Ús de dependències: es generarà un paquet independent per aquells components susceptibles de ser reutilitzats o que poden ser modificats i actualitzats sense afectar a la resta de components (p.e.: frameworks, runtimes, visors o editors de documents, plugins, etc).
 
   * b) 	Els paquets principals no han d’incloure paràmetres de configuracions específics de l'aplicació o del sistema (p.e.: strings de connexió, nom de BBDD, etc). Aquestes personalitzacions s'inclouran en un paquet diferent o s'implementaran mitjançant una eina de gestió de l'entorn d'usuari (UEM).
 
-* **1.2.1.2 Simplicitat** del paquet i del perfil d'usuari. Els fitxers i claus de registre a mantenir seran els mínims necessaris perquè l'aplicació sigui completament funcional.
+* **1.2.1.2 Simplicitat** *(desitjable)* del paquet i del perfil d'usuari. Els fitxers i claus de registre a mantenir seran els mínims necessaris perquè l'aplicació sigui completament funcional.
 
 * **1.2.1.3 Auto-contingut i auto-configurat** *(desitjable)*. És necessari garantir que la combinació del paquet principal + paquets dependents incorporen el total de fitxers i claus de registre necessàries per treballar amb l'aplicació1. Tanmateix, cal evitar la necessitat de configuracions manuals mitjançant una parametrització pre-establerta. 
 
