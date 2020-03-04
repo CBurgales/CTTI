@@ -104,7 +104,7 @@ img[alt="centrar"] {
 
 * **1.2.1 Automatització** *(obligatori)*. Tota aplicació escriptori ha de permetre la seva completa instal·lació i desinstal·lació del lloc de treball de manera administrada i desatessa. Es desitjable utilitzar tecnologies de generació de paquets que segueixin una filosofia out-of-the-box amb l'objectiu de facilitar el procés i minimitzar els problemes d'implementació.
 
-* **1.2.2 Estabilitat** *(obligatori)*. Les solucions a implementar al lloc de treball han de tenir la suficient experiència en entorns empresarials amb els mateixos condicionats de interoperabilitat que els terminals de la Generalitat de Catalunya encara que en ocasions caldrà avaluar l'ús de solucions emergents per garantir l'aplicació de la resta de principis definits. 
+* **1.2.2 Estabilitat** *(obligatori)*. Les solucions a implementar al lloc de treball han de tenir suficient experiència en entorns empresarials amb els mateixos condicionats de interoperabilitat que els terminals de la Generalitat de Catalunya, encara que en ocasions caldrà avaluar l'ús de solucions emergents per garantir l'aplicació de la resta de principis definits. 
 
 ### 1.2.1 Virtualització d'aplicacions
 
