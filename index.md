@@ -88,17 +88,21 @@ img[alt="centrar"] {
 
 * **1.1.2 Desacoblada i multi-plataforma** *(desitjable)*. Les aplicacions Web són la tipologia d'aplicacions prioritaria per lliurar al lloc de treball pels múltiples beneficis que ofereixen: agnòstiques al SO, maximitzen la mobilitat de l'usuari, faciliten l'administració, etc. Si per motius funcionals, tecnològics o econòmics, es requreix implementar una aplicació escriptori al lloc de treball caldrà avaluar les tecnologies, APIs i Frameworks que millor encaixen per assolir aquests principis.
 
-* **1.1.3 Interoperatbiltat** *(obligatori)*. El context d'execució de les aplicacions està format pel Sistema Operatiu, les plataformes integrades (impressió, eines de gestió i administració, recursos locals i en xarxa, etc), altres aplicacions i el periferics. La interoperatibilitat amb aquests elements és una facultat necessaria en les solucions del lloc de treball. Als següents enllaços es troba informació que permet conèixer aquest context d'execució al lloc de treball:
+* **1.1.3 Modular i reutilitzable** *(disitjable)*. Les aplicacions ha d'estar preparades per oferir un servei amb la capacitat de resoldre requeriments funcionals i tècnics heterogenis, mitjançant una capa de personalizació i la utilització de micro-serveis o components que permeting adaptar-se a l'escenari d'ús amb el minim de canvis possible.
+
+* **1.1.4 Interoperatbiltat** *(obligatori)*. El context d'execució de les aplicacions està format pel Sistema Operatiu, les plataformes integrades (impressió, eines de gestió i administració, recursos locals i en xarxa, etc), altres aplicacions i el periferics. La interoperatibilitat amb aquests elements és una facultat necessaria en les solucions del lloc de treball. Als següents enllaços es troba informació que permet conèixer aquest context d'execució al lloc de treball:
 
     * [Full de ruta de programari.](https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/)
     * [Disseny de la maqueta W10.]()
     * [Catàleg de dispositius.]()
 
-* **1.1.4 Centralització** *(desitjable)*. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
+* **1.1.5 Centralització** *(desitjable)*. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
 
-* **1.1.5 Traçabilitat** *(desitjable)*. 
+* **1.1.6 Traçabilitat** *(obligatori)*. Les solucions han permetre enregistrar la informació necessaria per realitzar un anàlisi de problemes, així com disposar de la capacitat per parametritzar el nivell de registre necessari (error, warning, info i debug).
 
 ## 1.2 Tecnologia
+
+* **1.2.1 Automatizació** *(obligatori)*. Tota aplicació escriptori ha de permetre la seva completa instal·lació i desinstal·lació del lloc de treball de manera administrada i desatessa. Es desitjable utilitzar tecnologies de generació de paquets que segueixin una filosofia out-of-the-box amb l'objectiu de facilitar el procés i minimitzar els problemes d'implementació.
 
 ### 1.2.1 Virtualització d'aplicacions
 
@@ -111,7 +115,7 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 3. Ritme d'actualitzacions de l'aplicació escriptori molt elevat.
 4. Es requreixi un implementació o desimplementació de l'aplicació molt àgil.
 
-Principis:
+##### Principis:
 
 * **1.2.1.1 Filosofia de “micro-serveis” o “components desacoblats”** *(desitjable)*, amb l’objectiu de maximitzar la reutilització dels mateixos alhora que es minimitzen els esforços i l’impacte al servei per mantenir el cicle de vida de les aplicacions. Entenem que es segueix aquesta filosofia quan s'assoleixen les següents premisses:
   * a)	Ús de dependències: es generarà un paquet independent per aquells components susceptibles de ser reutilitzats o que poden ser modificats i actualitzats sense afectar a la resta de components (p.e.: frameworks, runtimes, visors o editors de documents, plugins, etc).
