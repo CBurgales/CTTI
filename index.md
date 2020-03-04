@@ -90,9 +90,9 @@ img[alt="centrar"] {
 
 * **1.1.3 Interoperatbiltat**. El context d'execució de les aplicacions està format pel Sistema Operatiu, les plataformes integrades (impressió, eines de gestió i administració, recursos locals i en xarxa, etc), altres aplicacions i el periferics. La interoperatibilitat amb aquests elements és una facultat necessaria en les solucions del lloc de treball. Als següents enllaços es troba informació que permet conèixer aquest context d'execució al lloc de treball:
 
-1. [Full de ruta de programari.](https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/)
-2. [Disseny de la maqueta W10.]()
-3. [Catàleg de dispositius.]()
+    * [Full de ruta de programari.](https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/)
+    * [Disseny de la maqueta W10.]()
+    * [Catàleg de dispositius.]()
 
 * **1.1.4 Centralització**. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora es minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
 
