@@ -94,7 +94,7 @@ img[alt="centrar"] {
 2. [Disseny de la maqueta W10.]()
 3. [Catàleg de dispositius.]()
 
-* **1.1.4 Centralització**. Si escau, les solucions han de permetre ajustar la seva parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora es minimitzin les accions manuals en les instal·lacions.  
+* **1.1.4 Centralització**. Si escau, les solucions han de permetre ajustar la parametrització de manera gestionada i remota, mitjançant consoles d'administració, polítiques de domini o altres tecnologies, amb l'objectiu de maximitzar la homogeneitat en la configuració de tot el parc de terminals i alhora es minimitzar les accions manuals en les instal·lacions i futurs canvis necessaris.  
 
 ## 1.2 Tecnologia
 
