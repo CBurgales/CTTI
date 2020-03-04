@@ -163,7 +163,28 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 
 ## 2.1 Dispositius
 
+* **2.1.1	Eficiència energètica**. 
+
+* **2.1.2	Simplicitat**. 
+
+* **2.1.3	Durabilitat i reaprofitament**. 
+
+* **2.1.4	Ampliable**.
+
+* **2.1.5	Gestió centralitzada**.
+
+* **2.1.6	Seguretat**.
+
+
 ## 2.2 Terminals corporatius
+
+* **2.2.1	Rendiment persistent**.
+
+* **2.2.2	Inventari i control**.
+
+* **2.2.3	Cicle de vida**.
+
+* **2.2.4	Automatització i agilitat**.
 
 &nbsp;
 &nbsp;
