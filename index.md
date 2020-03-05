@@ -54,7 +54,8 @@ img[alt="centrar"] {
 
 # Introducció
 &nbsp;
-*Els principis d’arquitectura CTTI són les normes i directrius generals destinades a ser perdurables i rarament modificables i tenen com a objectiu informar i recolzar la forma en què CTTI vol que s’implementin les xarxes de telecomunicacions.*
+*Els principis d’arquitectura CTTI són les normes i directrius generals destinades a ser perdurables i rarament modificables i tenen com a objectiu informar i recolzar la forma en què CTTI vol que s’implementin les solucions i la infraestructura de l'entorn de treball.*
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -65,12 +66,13 @@ img[alt="centrar"] {
 &nbsp;
 &nbsp;
 
-* **0.1 Estandarització** *(obligatori)*. Cal vetllar perquè els dissenys d'alt nivell de les solucions de l'entorn de treball esdevinguin un model estàndar que permeti implemantar-ho a qualsevol escenari amb el mínim de canvis necessaris. Tanmateix s'haurà de validar si cap dels estàndars ja definits resolen una necessitat TIC i en aquest cas s'implantarà aquesta solució amb el mínim d'adaptacions possible.
+* **0.1 Estandarització** *(obligatori)*. Cal vetllar perquè els dissenys d'alt nivell de les solucions de l'entorn de treball esdevinguin un model estàndar de referència que permeti implemantar-ho a qualsevol escenari amb el mínim de canvis necessaris. Tanmateix s'haurà de validar si cap dels estàndars ja definits resolen una necessitat TIC i en aquest cas s'implantarà aquesta solució amb el mínim d'adaptacions possible.
   * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): catàleg dels estàndards establerts en els diferents àrees de l'entorn de treball.
 
 * **0.2 Compliment** *(obligatori)*. Tota solució de l'entorn de treball, a més de seguir els principis anunciats en aquest espai, haurà de complir amb els requeriments i directrius de les demés àrees TIC i de seguretat involucrades en el disseny. 
   * [Principis arquitectura de sistemes d'informació](https://canigo.ctti.gencat.cat/arqctti/principis_arq/). Si un component o aplicació implementada al lloc de treball forma part d'un sistema de la informació, caldrà que segueixi també els principis d'aquesta àrea.
   
+* **0.3 Neutralitat tecnològica** *(obligatori)*. Cal garantir la lliure adopció de tecnologies, tenint en compte recomanacions, conceptes i normatives dels organismes internacionals competents en la matèria. És a dir, s'ha d'escollir lliurement la tecnologia que més s'adapti a les necessitats i s'ha d'evitar la orientació a certes solucions per interessos particulars.
 
 &nbsp;
 &nbsp;
@@ -167,7 +169,7 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 
 ## 2.1 Dispositius
 
-* **2.1.1	Eficiència energètica**. L'adquisició i la gestió dels dispositius es realitzarà amb un enfoc d'estalvi energètic, cuidant que els requeriments energètics siguin els mínims possibles i que les polítiques energètiques aplicades maximitzin l'eficiència energètica sense impactar en la funcionalitat. 
+* **2.1.1	Eficiència energètica**. L'adquisició i la gestió dels dispositius es realitzarà amb un enfoc d'estalvi energètic, cuidant que els requeriments energètics siguin els mínims possibles i que les polítiques energètiques aplicades maximitzin l'eficiència energètica i la sostenibilitat sense impactar en la funcionalitat. 
 
 * **2.1.2	Simplicitat**. 
 
