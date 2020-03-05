@@ -69,7 +69,7 @@ img[alt="centrar"] {
   * [Estàndards de l'entorn de treball](https://gencat.sharepoint.com/:x:/s/arquitecturasicpd/EZseBopn5rlNunUw11ODpqkB4GjH8Xq1MpPlkc0lpERamg?e=uENvXu): catàleg dels estàndards establerts en els diferents àrees de l'entorn de treball.
 
 * **0.2 Compliment** *(obligatori)*. Tota solució de l'entorn de treball, a més de seguir els principis anunciats en aquest espai, haurà de complir amb els requeriments i directrius de les demés àrees TIC i de seguretat involucrades en el disseny. 
-  * [Principis arquitectura de sistemes d'informació] (https://canigo.ctti.gencat.cat/arqctti/principis_arq/). Si un component o aplicació implementada al lloc de treball forma part d'un sistema de la informació, caldrà que segueixi també els principis d'aquesta àrea.
+  * [Principis arquitectura de sistemes d'informació](https://canigo.ctti.gencat.cat/arqctti/principis_arq/). Si un component o aplicació implementada al lloc de treball forma part d'un sistema de la informació, caldrà que segueixi també els principis d'aquesta àrea.
   
 
 &nbsp;
@@ -167,7 +167,7 @@ En aquells casos d'ús on la virtualització d'aplicacions esdevingui com el mè
 
 ## 2.1 Dispositius
 
-* **2.1.1	Eficiència energètica**. 
+* **2.1.1	Eficiència energètica**. L'adquisició i la gestió dels dispositius es realitzarà amb un enfoc d'estalvi energètic, cuidant que els requeriments energètics siguin els mínims possibles i que les polítiques energètiques aplicades maximitzin l'eficiència energètica sense impactar en la funcionalitat. 
 
 * **2.1.2	Simplicitat**. 
 
